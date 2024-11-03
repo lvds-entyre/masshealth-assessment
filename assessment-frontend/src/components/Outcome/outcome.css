@@ -1,0 +1,118 @@
+/* src/Outcome.css */
+
+/* Container for the entire Outcome component */
+.outcome-container {
+  padding: 40px 20px;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title of the Outcome section */
+.outcome-title {
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Individual program card */
+.program-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 800px;
+  margin-bottom: 30px;
+  padding: 25px 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect for program cards */
+.program-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Program name/title */
+.program-name {
+  font-size: 1.75rem;
+  color: #007bff;
+  margin-bottom: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Program explanation paragraph */
+.program-explanation {
+  font-size: 1rem;
+  color: #555555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Eligibility criteria table */
+.eligibility-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Table headers */
+.eligibility-table th {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+/* Table cells */
+.eligibility-table td {
+  border: 1px solid #dddddd;
+  padding: 12px 15px;
+  font-size: 0.95rem;
+  color: #333333;
+}
+
+/* Zebra striping for table rows */
+.eligibility-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* No additional information message */
+.no-info {
+  font-size: 1rem;
+  color: #888888;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .program-card {
+    padding: 20px 15px;
+  }
+
+  .program-name {
+    font-size: 1.5rem;
+  }
+
+  .program-explanation {
+    font-size: 0.95rem;
+  }
+
+  .eligibility-table th,
+  .eligibility-table td {
+    padding: 10px 12px;
+    font-size: 0.9rem;
+  }
+
+  .outcome-title {
+    font-size: 1.75rem;
+  }
+}

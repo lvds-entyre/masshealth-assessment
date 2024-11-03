@@ -1,0 +1,98 @@
+/* src/styles/styles.css */
+
+/* Outcome Container */
+.outcome-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.outcome-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Program Card */
+.program-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.program-card h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.program-card p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Eligibility Table */
+.eligibility-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.eligibility-table th,
+.eligibility-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.eligibility-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.eligibility-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Header and Footer */
+.header {
+  background-color: #457750; /* Green */
+  color: white;
+  padding: 2px 0;
+  text-align: center;
+}
+
+.footer {
+  background-color: #672047; /* Purple */
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.content {
+  padding-bottom: 60px; /* Prevent content from being hidden behind the footer */
+}
+
+/* Submission Feedback Styles */
+.submission-success {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #d4edda; /* Light green */
+  color: #155724; /* Dark green */
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.submission-error {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8d7da; /* Light red */
+  color: #721c24; /* Dark red */
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  text-align: center;
+}
